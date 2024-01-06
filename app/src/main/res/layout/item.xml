@@ -1,0 +1,41 @@
+<!-- custom_list_item.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="?android:attr/selectableItemBackground">
+
+    <TextView
+        android:id="@+id/textViewRoomTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Oda Başlığı"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewCustomerName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Müşteri Adı"
+        android:textSize="16sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/textViewStartDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Başlangıç Tarihi"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textViewDuration"
+        android:layout_width="346dp"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:text="Kaç Gün"
+        android:textColor="#8C8C8C"
+        android:textSize="16sp" />
+
+</LinearLayout>
