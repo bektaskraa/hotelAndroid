@@ -34,7 +34,7 @@
 -  **Excalidraw**: Proje arayüzünün örnek çiziminin yapılması için kullanılan uygulama.
 
 ### Proje Tasarımları
-![proje görselleri](screens)
+![proje görselleri](screens.PNG)
 
 ### Fonksiyonel Diagramların Kurulması
 ```mermaid
